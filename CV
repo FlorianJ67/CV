@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <title>CV Florian JACOB</title>
+</head>
+<body>
+    <container>
+        <header>
+            <h1>Florian JACOB</h1>
+            <article>
+                <h2>Coordonnées</h2>
+                <p>06.89.09.49.97</p>
+                <p>1 rue de colmar</p>
+                <p>67540 Ostwald</p>
+                <p>florian.jacob96@gmail.com</p>
+            </article>
+            <article>
+                <h2>Langues</h2>
+                <p>Français</p>
+                <p>Anglais B1-B2</p>
+            </article>
+            <article>
+                <h2>Compétences</h2>
+                <p>Html Css JS</p>
+                <p>Php SQL</p>
+                <p>Adobe Premier</p>
+                <p>Adobe Photoshop</p>
+            </article>
+            <article>
+                <h2>Loisirs</h2>
+                <p>Jeux Vidéo</p>
+                <p>Musique (VGM)</p>
+            </article>
+        </header>
+        <main>
+            <article>
+                <h2>Projet :</h2>
+                <p>Développeur Web</p>
+                <p>& Web Mobile</p>
+            </article>
+            <article>
+                <h2>Formation & Diplome</h2>
+                <ul>
+                    <li>
+                        <div>
+                            <p>11/2022</p>
+                        </div>
+                        <div>
+                            <p>Préparation en vue du titre :</p>
+                            <p>Développeur web & mobile Elan Formation</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>04/2021-05/2022</p>
+                        </div>
+                        <div>
+                            <p>Stage VIA Formation fait au Grüb</p>
+                            <p>Employé polyvalent multimédia</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>07/2018-09/2018</p>
+                        </div>
+                        <div>
+                            <p>Niveau Développeur web & mobile 3WA</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>2014</p>
+                        </div>
+                        <div>
+                            <p>Terminale STI2D</p>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+
+        </main>
+    </container>
+</body>
+</html>
