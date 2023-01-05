@@ -1,7 +1,11 @@
-container {
-    width: 1880px;
-    height: 1008px;
+body {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 1920px;
     display: flex;
+    justify-content: center;
     font-family: 'Oswald', sans-serif;
 }
 p {
@@ -70,4 +74,55 @@ ul li:first-child{
 }
 li {
     border-bottom: 2px solid rgba(47, 46, 46, 0.389);
+}
+@media screen and (max-width: 768px) {
+    #container {
+        width: 100vh;
+    }
+    /* --header-- */
+    header article p {
+        font-size: 14px;
+    }
+    header article h2 {
+        font-size: 20px;
+    }
+    /* eMail */
+    header article:nth-child(2) p:last-child {
+        font-size: 10px;
+    }
+    /* --main-- */
+    main {
+        justify-content: flex-start;
+    }
+    main ul li div:first-child {
+        width: 100%;
+    }
+    main article:first-child p{
+        font-size: 25px;
+        margin: 0;
+    }
+    main article:nth-child(2) {
+        margin-top: 30px;
+    }
+    main h2 {
+        font-size: 21px;
+        text-align: center;
+    }
+    main ul li {
+        flex-direction: column;
+    }
+    main ul li div {
+        text-align: center;
+    }
+    main ul li div:nth-child(2) {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    main ul li div:nth-child(2) p {
+        margin: 0;
+    }
+    main ul li div:first-child p {
+        margin: 0;
+        font-size: 85%;
+    }
 }
