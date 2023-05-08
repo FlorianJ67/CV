@@ -69,6 +69,7 @@ main article:first-child {
 }
 main article:first-child p {
     font-size: 55px;
+    margin: 3%;
 }
 main ul li div:first-child {
     width: 30%;
