@@ -26,8 +26,8 @@ header {
 header article p, header article a {
     padding-left: 10px;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
     text-decoration: none;
 }
 header article a:hover {
