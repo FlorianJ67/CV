@@ -8,7 +8,7 @@ body {
     justify-content: center;
     font-family: 'Oswald', sans-serif;
 }
-p {
+p, a {
     font-size: 18px;
     color: #bda68f;
 }
@@ -23,8 +23,15 @@ header {
     align-items: flex-start;
     padding: 15px;
 }
-header article p {
+header article p, header article a {
     padding-left: 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-decoration: none;
+}
+header article a:hover {
+    color: white;
 }
 h1 {
 padding-left: 4px;
